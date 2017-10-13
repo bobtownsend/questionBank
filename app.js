@@ -13,7 +13,7 @@ var questions = require("./routes/questions");
 var app = express();
 
 //TODO: put your mlabs db connection here
-mongoose.connect("mongodb://admin:ptooey@ds117625.mlab.com:17625/questionbank");
+mongoose.connect("<REMEMBER YOUR STRING IN THE BLOCKS>");
 
 var db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
